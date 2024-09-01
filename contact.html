@@ -1,0 +1,69 @@
+
+<!-- CONTACT US -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="contact.css">
+
+    <h1>Contact Us</h1>
+
+    <form id="contactForm" action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Bhavishya" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="ShibuTech@example.com" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Type your message/feedback/suggestions here..." rows="4" required></textarea>
+
+        <div class="error-message" id="errorMessage"></div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Your HTML content goes here -->
+
+    <footer>
+        <p>&copy; 2023 Ethical Hacking Blog</p>
+    </footer>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Client-side validation
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var errorMessage = document.getElementById("errorMessage");
+
+            errorMessage.innerHTML = "";
+
+            if (!name || !email || !message) {
+                errorMessage.innerHTML = "All fields are required.";
+                return;
+            }
+
+            // Placeholder for server-side processing (submit to server or API)
+            console.log("Form submitted:", { name, email, message });
+
+            // Additional logic (e.g., AJAX to submit form data to the server)
+
+            // Optionally, clear the form after submission
+            document.getElementById("contactForm").reset();
+        });
+    </script>
+
+</body>
+</html>

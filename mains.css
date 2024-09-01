@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:rgb(12, 11, 15) ;
+}
+.element {
+    border: 1px solid #ccc; /* Adjust width, style, and color as needed */
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: ;
+}
+.element {
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+  
+    @media (max-width: 768px) { /* Adjust breakpoint as needed */
+      width: 95%;
+    }
+  }
+h1 {
+    color: rgb(226, 62, 16);
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer; /* Add a pointer cursor for clickable headings */
+}
+
+b {
+    color: rgba(226, 62, 16);
+}
+
+p {
+    color: #261dd3;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    color: rgb(26, 101, 17);
+    line-height: 1.5;
+}
+
+l1 {
+    color: rgb(209, 14, 14);
+    line-height: 1.5;
+}
+
+h8 {
+    color: #ffe600;
+}
+
+
+/* Style for function buttons */
+.function-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
