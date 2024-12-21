@@ -1,38 +1,49 @@
+/* General body styles */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color:rgb(12, 11, 15) ;
+    background-color: rgb(12, 11, 15);
 }
+
+/* Responsive object styling */
 .responsive-object {
     width: 100%; /* Full width of the parent container */
     height: 100vh; /* Full height of the viewport */
     border: none; /* Remove any border */
+    display: block; /* Ensures proper centering */
+    margin: 0 auto;
 }
+
 @media screen and (max-width: 768px) {
-    /* Adjust height for smaller devices */
     .responsive-object {
-        height: 70vh;
+        height: 70vh; /* Reduce height for smaller screens */
     }
 }
 
-.element {
-    border: 1px solid #ccc; /* Adjust width, style, and color as needed */
-}
-::-webkit-scrollbar{
-    width: 0;
-}
-::-webkit-scrollbar-thumb{
-    background-color: ;
-}
+/* General element styling */
 .element {
     width: 80%;
     height: 500px;
     overflow: hidden;
-  
-    @media (max-width: 768px) { /* Adjust breakpoint as needed */
-      width: 95%;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .element {
+        width: 95%; /* Expand width for smaller screens */
     }
-  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Fallback styling */
+}
+
+/* Heading and text styles */
 h1 {
     color: rgb(226, 62, 16);
     text-align: center;
@@ -71,7 +82,6 @@ l1 {
 h8 {
     color: #ffe600;
 }
-
 
 /* Style for function buttons */
 .function-button {
