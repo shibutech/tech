@@ -3,6 +3,18 @@ body {
     margin: 20px;
     background-color:rgb(12, 11, 15) ;
 }
+.responsive-object {
+    width: 100%; /* Full width of the parent container */
+    height: 100vh; /* Full height of the viewport */
+    border: none; /* Remove any border */
+}
+@media screen and (max-width: 768px) {
+    /* Adjust height for smaller devices */
+    .responsive-object {
+        height: 70vh;
+    }
+}
+
 .element {
     border: 1px solid #ccc; /* Adjust width, style, and color as needed */
 }
