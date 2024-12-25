@@ -115,3 +115,11 @@ h8 {
 .social-icons a:hover {
     transform: scale(1.2);
 }
+
+
+/* Glow effect on hover */
+#content-index:hover {
+    color: #00ff00; /* Glow text color */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    transform: scale(1); /* Slight zoom effect */
+}
