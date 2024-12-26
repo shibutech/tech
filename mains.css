@@ -111,8 +111,6 @@ h8 {
 }
 
 /* Style for function buttons */
-.
-/* Function Button Styles */
 .function-button {
   padding: 10px 20px;
   font-size: 16px; /* Default size for large screens */
@@ -159,7 +157,7 @@ h8 {
   @keyframes fadeOut {
       0%{
           background-color: rgba(0, 0, 0, 0.9);
-          opacity: 1:
+          opacity: 1;
     100% {
       opacity: 0;
       visibility: hidden;
