@@ -19,6 +19,7 @@ body {
   
   @keyframes matrix {
     0% {
+        color: rgba(0, 255, 0, 0.9);
       opacity: 0;
     }
     50% {
@@ -144,7 +145,7 @@ h8 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     display: flex;
     justify-content: center;
@@ -156,6 +157,9 @@ h8 {
   }
   
   @keyframes fadeOut {
+      0%{
+          background-color: rgba(0, 0, 0, 0.9);
+          opacity: 1:
     100% {
       opacity: 0;
       visibility: hidden;
@@ -186,7 +190,7 @@ h8 {
 @media (max-width: 600px) {
   /* Adjust social icons */
   .social-icons img {
-      width: 3rem; /* Increase size for better tap experience */
+      width: 4rem; /* Increase size for better tap experience */
   }
   
   .social-icons a {
