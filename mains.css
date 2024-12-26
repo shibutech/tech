@@ -120,7 +120,23 @@ h8 {
 
 
 
-
+.matrix-text {
+    font-family: "Courier New", monospace;
+    color: #00ff00;
+    animation: matrix 1s infinite;
+  }
+  
+  @keyframes matrix {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
 
 
