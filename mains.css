@@ -7,6 +7,7 @@ body {
 
 .justified-content {
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .matrix-text {
