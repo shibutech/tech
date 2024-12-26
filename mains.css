@@ -1,9 +1,33 @@
 /* General body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
 }
+
+.justified-content {
+    text-align: justify;
+}
+
+.matrix-text {
+    font-family: "Courier New", monospace;
+    color: #00ff00;
+    animation: matrix 1s infinite;
+  }
+  
+  @keyframes matrix {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
 
 /* Responsive object styling */
 .responsive-object {
@@ -117,28 +141,6 @@ h8 {
       visibility: hidden;
     }
   }
-
-
-
-.matrix-text {
-    font-family: "Courier New", monospace;
-    color: #00ff00;
-    animation: matrix 1s infinite;
-  }
-  
-  @keyframes matrix {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
-
 
  /* Social Media Icon Styles */
 .social-icons a {
