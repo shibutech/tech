@@ -8,6 +8,7 @@ body {
 .justified-content {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .matrix-text {
