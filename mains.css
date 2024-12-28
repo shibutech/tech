@@ -33,21 +33,21 @@ body {
 
 
 /* Responsive object styling */
-.responsive-object {
-    width: 100%; /* Full width of the parent container */
-    height: 100vh; /* Full height of the viewport */
-    border: none; /* Remove any border */
-    display: block; /* Ensures proper centering */
+/* .responsive-object {
+    width: 100%; /* Full width of the parent container *
+    height: 100vh; /* Full height of the viewport *
+    border: none; /* Remove any border *
+    display: block; /* Ensures proper centering *
     margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
     .responsive-object {
-        height: 70vh; /* Reduce height for smaller screens */
+        height: 70vh; /* Reduce height for smaller screens *
     }
 }
 
-/* General element styling */
+/* General element styling *
 .element {
     width: 80%;
     height: 500px;
@@ -57,10 +57,10 @@ body {
 
 @media (max-width: 768px) {
     .element {
-        width: 95%; /* Expand width for smaller screens */
+        width: 95%; /* Expand width for smaller screens *
     }
-}
-/*Custom ScrollBar*/
+}*/
+/*Custom ScrollBar*/ 
 
 ::-webkit-scrollbar{
   width: 15px;
