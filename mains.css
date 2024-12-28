@@ -3,7 +3,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
-    overflow: auto;
+    overflow: hidden;
 }
 
 .justified-content {
