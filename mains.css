@@ -3,10 +3,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
+    overflow: auto;
 }
 
 .justified-content {
-    text-align: justify;
+/*     text-align: justify; */
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
