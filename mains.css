@@ -1,9 +1,17 @@
 /* General body styles */
-body {
+/* body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
-/*     overflow: hidden; */
+/*     overflow: hidden; 
+}*/
+
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-y: auto; /* Allow vertical scroll */
+    height: 100%; /* Ensure proper scaling */
 }
 
 
