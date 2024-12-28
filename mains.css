@@ -1,10 +1,35 @@
 /* General body styles */
-body {
+/* body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
     overflow: hidden;
+} */
+
+/* Ensure html and body take full height of the viewport */
+html, body {
+  height: 100%;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* General body styling */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  /* overflow: auto; Allow scrolling only for the body content */
+}
+
+
+
+
+
+
+
+
+
 
 .justified-content {
 /*     text-align: justify; */
