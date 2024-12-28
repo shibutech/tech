@@ -1,31 +1,12 @@
 /* General body styles */
-/* body {
+body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     background-color: rgb(12, 11, 15);
-/*     overflow: hidden; 
-}*/
-
-html, body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow-x: hidden; /* Prevent horizontal scroll */
-    overflow-y: auto; /* Allow vertical scroll */
-    height: 100%; /* Ensure proper scaling */
 }
 
-
-
-
-
-
-
-
-
-
-
 .justified-content {
-/*     text-align: justify; */
+    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -52,21 +33,21 @@ html, body {
 
 
 /* Responsive object styling */
-/* .responsive-object {
-    width: 100%; /* Full width of the parent container *
-    height: 100vh; /* Full height of the viewport *
-    border: none; /* Remove any border *
-    display: block; /* Ensures proper centering *
+.responsive-object {
+    width: 100%; /* Full width of the parent container */
+    height: 100vh; /* Full height of the viewport */
+    border: none; /* Remove any border */
+    display: block; /* Ensures proper centering */
     margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
     .responsive-object {
-        height: 70vh; /* Reduce height for smaller screens *
+        height: 70vh; /* Reduce height for smaller screens */
     }
 }
 
-/* General element styling *
+/* General element styling */
 .element {
     width: 80%;
     height: 500px;
@@ -76,20 +57,17 @@ html, body {
 
 @media (max-width: 768px) {
     .element {
-        width: 95%; /* Expand width for smaller screens *
+        width: 95%; /* Expand width for smaller screens */
     }
-}*/
-/*Custom ScrollBar*/ 
+}
 
-::-webkit-scrollbar{
-  width: 15px;
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8; /* Hide scrollbar */
 }
-::-webkit-scrollbar-track{
-  background: #d1e5ff;
-}
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(#ff0000, #22ff52);
-  border-radius: 10px;
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Fallback styling */
 }
 
 /* Heading and text styles */
@@ -180,7 +158,7 @@ h8 {
       0%{
           background-color: rgba(0, 0, 0, 0.9);
           opacity: 1;
-      } 100% {
+    100% {
       opacity: 0;
       visibility: hidden;
     }
@@ -210,7 +188,7 @@ h8 {
 @media (max-width: 600px) {
   /* Adjust social icons */
   .social-icons img {
-      width: 2rem; /* Increase size for better tap experience */
+      width: 4rem; /* Increase size for better tap experience */
   }
   
   .social-icons a {
